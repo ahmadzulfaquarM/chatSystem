@@ -24,3 +24,14 @@ dist-ssr
 *.sw?
 
 .env
+
+# Block subfolder dependencies
+backend/node_modules/
+frontend/node_modules/
+
+# Block subfolder environment variables
+backend/.env
+frontend/.env
+
+# Block frontend build folders
+frontend/dist/
